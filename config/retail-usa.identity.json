@@ -1,0 +1,13 @@
+{
+  "sha256": "246556f56d4062e05d708359f3e7ab0840b4035f426fa380f5bf152436c1d771",
+  "size": 6418432,
+  "title_id": "454107F8",
+  "media_id": "38595BF0",
+  "version": "0.0.0.1",
+  "image_base": "82000000",
+  "image_size": 18481152,
+  "entry_point": "82A3C128",
+  "disc_number": 1,
+  "disc_count": 1,
+  "original_pe_name": "ArmyOfTwo_AllInOne.exe"
+}

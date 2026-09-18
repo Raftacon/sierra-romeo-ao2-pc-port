@@ -1,0 +1,139 @@
+# Addresses verified against config/retail-usa.identity.json.
+[[midasm_hook]]
+address = 0x82641CB8
+name = "AotCheckpointCorner"
+registers = ["r1", "r3", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8"]
+return_on_true = true
+
+# 60 FPS sites identified by Sowa_95 in xenia-canary/game-patches.
+[[midasm_hook]]
+address = 0x82A50790
+name = "AotGpuPollBackoff"
+
+[[midasm_hook]]
+address = 0x82528328
+name = "AotRenderFence"
+registers = ["r3"]
+
+[[midasm_hook]]
+address = 0x829B0938
+name = "AotObserveMenu"
+registers = ["r3"]
+
+[[midasm_hook]]
+# First retail credits group/row, before appending the original first line.
+address = 0x8234FE5C
+name = "AotCreditsPrefix"
+registers = ["r1", "r23", "r30"]
+
+[[midasm_hook]]
+# UIAction_CheckPermission::Activated; only the live Extras owner is replaced.
+address = 0x823368A8
+name = "AotOpenWeaponUnlock"
+registers = ["r3"]
+return_on_true = true
+
+[[midasm_hook]]
+address = 0x82A3AD70
+name = "AotMenuInput"
+registers = ["r3", "r4"]
+return_on_true = true
+
+[[midasm_hook]]
+address = 0x8264F0A4
+name = "AotSubtitleBackground"
+registers = ["r1", "r29", "r28", "f31", "f30"]
+
+[[midasm_hook]]
+address = 0x8233B2B8
+name = "AotMouseIntent"
+registers = ["r1", "r28", "f29"]
+
+[[midasm_hook]]
+address = 0x823A1880
+name = "AotHudWheel"
+registers = ["r1", "r31", "r30", "f26", "f29", "f31"]
+
+[[midasm_hook]]
+address = 0x82642158
+name = "AotKeyboardGlyph"
+registers = ["r3", "r6", "r7", "r8", "f1", "f2", "f3", "f4"]
+return_on_true = true
+
+[[midasm_hook]]
+address = 0x82642AE8
+name = "AotKeyboardActionMaterial"
+registers = ["r3", "r4", "r30", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8"]
+return_on_true = true
+
+[[midasm_hook]]
+address = 0x82582D78
+name = "AotCoopTextureResource"
+registers = ["r30"]
+
+[[midasm_hook]]
+address = 0x829D3A48
+name = "AotCoopTextureBinding"
+registers = ["r5", "r6", "r7"]
+
+[[midasm_hook]]
+address = 0x829265F8
+name = "AotOpenPcSettings"
+registers = ["r3"]
+return_on_true = true
+
+[[midasm_hook]]
+address = 0x8264F0E8
+name = "AotSubtitleShadow"
+registers = ["r1", "r3", "r6", "r7", "r8", "f1", "f2", "f3", "f4"]
+
+[[midasm_hook]]
+address = 0x8236982C
+name = "AotPrepareLocalStorage"
+registers = ["r30"]
+
+[[midasm_hook]]
+address = 0x824B9D30
+name = "AotMovieTick"
+registers = ["r31"]
+
+[[midasm_hook]]
+address = 0x82679764
+name = "AotObserveConsoleActor"
+registers = ["r29", "r1"]
+
+[[midasm_hook]]
+address = 0x8247D450
+name = "AotGameFrame"
+
+[[midasm_hook]]
+address = 0x8247D550
+name = "AotFrameLimit"
+registers = ["f0"]
+after_instruction = true
+
+[[midasm_hook]]
+address = 0x825600A0
+name = "AotBlurRadius"
+registers = ["f1"]
+after_instruction = true
+
+[[midasm_hook]]
+address = 0x825600C4
+name = "AotBlurRadius"
+registers = ["f1"]
+after_instruction = true
+
+[[midasm_hook]]
+# Common join after all retail interval choices, including the three-refresh
+# branch. The former 0x82A56444 hook covered only the two-refresh branch.
+address = 0x82A56458
+name = "AotPresentInterval"
+registers = ["r10"]
+after_instruction = true
+
+# After mflr: r12 retains the rectangle caller, before the stack prologue.
+[[midasm_hook]]
+address = 0x8254CCCC
+name = "AotPostprocessRectangle"
+registers = ["r12", "r1", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8"]

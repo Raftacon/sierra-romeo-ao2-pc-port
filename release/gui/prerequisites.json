@@ -1,0 +1,54 @@
+﻿{
+    "windows_x64":  [
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/12/3.12.10/Python.Python.3.12.installer.yaml",
+                            "url":  "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe",
+                            "name":  "python",
+                            "version":  "3.12.10",
+                            "sha256":  "67b5635e80ea51072b87941312d00ec8927c4db9ba18938f7ad2d27b328b95fb"
+                        },
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Git/Git/2.51.0/Git.Git.installer.yaml",
+                            "url":  "https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.1/Git-2.51.0-64-bit.exe",
+                            "name":  "git",
+                            "version":  "2.51.0",
+                            "sha256":  "843037416371600a7f289be8fe2b2224afe1c1bb0736bbab7b3ff393e6a7aaf2"
+                        },
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kitware/CMake/3.31.8/Kitware.CMake.installer.yaml",
+                            "url":  "https://github.com/Kitware/CMake/releases/download/v3.31.8/cmake-3.31.8-windows-x86_64.msi",
+                            "name":  "cmake",
+                            "version":  "3.31.8",
+                            "sha256":  "5696126b264e6384c17c5a96e7969310d83bb775b8ca1e68912406c56e246b7c"
+                        },
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/n/Ninja-build/Ninja/1.13.1/Ninja-build.Ninja.installer.yaml",
+                            "url":  "https://github.com/ninja-build/ninja/releases/download/v1.13.1/ninja-win.zip",
+                            "name":  "ninja",
+                            "version":  "1.13.1",
+                            "sha256":  "26a40fa8595694dec2fad4911e62d29e10525d2133c9a4230b66397774ae25bf"
+                        },
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/7/7zip/7zip/25.01/7zip.7zip.installer.yaml",
+                            "url":  "https://7-zip.org/a/7z2501-x64.exe",
+                            "name":  "7z",
+                            "version":  "25.01",
+                            "sha256":  "78afa2a1c773caf3cf7edf62f857d2a8a5da55fb0fff5da416074c0d28b2b55f"
+                        },
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VisualStudio/2022/BuildTools/17.14.41/Microsoft.VisualStudio.2022.BuildTools.installer.yaml",
+                            "url":  "https://download.visualstudio.microsoft.com/download/pr/bc92e2cb-33de-4a0c-995d-efa817f16b16/37bb0fb429d163ecebd272a865d11a37b906d152bef960da2ddb29c2e2fd6eeb/vs_BuildTools.exe",
+                            "name":  "vs",
+                            "version":  "17.14.41",
+                            "sha256":  "37bb0fb429d163ecebd272a865d11a37b906d152bef960da2ddb29c2e2fd6eeb"
+                        },
+                        {
+                            "provenance":  "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2015%2B/x64/14.44.35211.0/Microsoft.VCRedist.2015%2B.x64.installer.yaml",
+                            "url":  "https://download.visualstudio.microsoft.com/download/pr/73aabf2e-9532-4f68-99f7-3247081a619c/CC0FF0EB1DC3F5188AE6300FAEF32BF5BEEBA4BDD6E8E445A9184072096B713B/VC_redist.x64.exe",
+                            "name":  "vcredist",
+                            "version":  "14.44.35211.0",
+                            "sha256":  "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b"
+                        }
+                    ],
+    "format":  1
+}

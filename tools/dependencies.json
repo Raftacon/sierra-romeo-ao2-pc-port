@@ -1,0 +1,31 @@
+{
+  "rexglue": {
+    "version": "0.10.0",
+    "source_commit": "f5337cdc947ff6d4c4196737e2c807a48f2a1fc2",
+    "url": "https://github.com/rexglue/rexglue-sdk/releases/download/v0.10.0/rexglue-sdk-0.10.0-win-amd64.zip",
+    "archive": "rexglue-sdk-0.10.0-win-amd64.zip",
+    "sha256": "ad4485da853fbe932e9f5dbb643f9b5fe85dc73775ebbad4df6879fe6df0c11b",
+    "destination": "rexglue"
+  },
+  "llvm": {
+    "version": "20.1.8",
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-win64.exe",
+    "archive": "LLVM-20.1.8-win64.exe",
+    "sha256": "3197846a2b19063687dd56e93e34cd941e3548d907f23a6131571321bdf9fe7b",
+    "destination": "llvm"
+  },
+  "umodel": {
+    "version": "008f4dd554e0a03f7a43462a88bec822ec1aee7d",
+    "url": "https://raw.githubusercontent.com/gildor2/UEViewer/008f4dd554e0a03f7a43462a88bec822ec1aee7d/umodel.exe",
+    "archive": "umodel.exe",
+    "sha256": "13502e5a4d8f6b5f32252afebd6360f7302ccfaccf6b8dda65beff0be2d364a0",
+    "destination": "umodel"
+  },
+  "xenia": {
+    "version": "02d2cb5",
+    "url": "https://github.com/xenia-canary/xenia-canary-releases/releases/download/02d2cb5/xenia_canary_windows_.zip",
+    "archive": "xenia-canary-02d2cb5.zip",
+    "sha256": "1adbb2c1c69cbd5fabadb43d03b4c407db3b245de922e11aba699867c68d0796",
+    "destination": "xenia"
+  }
+}

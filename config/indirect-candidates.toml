@@ -1,0 +1,608 @@
+# Conservative candidates from tools/scan_indirect.py; runtime coverage pending.
+# Exact retail executable required. Each entry has a .rdata table
+# reference and a preceding return/tail-branch/padding boundary.
+[functions]
+# table slot 0x821A2AE0
+0x8222B318 = { name = "sub_8222B318" }
+# table slot 0x821A303C
+0x82230048 = { name = "sub_82230048" }
+# table slot 0x821A2F38
+0x82230068 = { name = "sub_82230068" }
+# table slot 0x821A411C
+0x82236E00 = { name = "sub_82236E00" }
+# table slot 0x821A4124
+0x82236E18 = { name = "sub_82236E18" }
+# table slot 0x821A4014
+0x82237160 = { name = "sub_82237160" }
+# table slot 0x821A4020
+0x82237178 = { name = "sub_82237178" }
+# table slot 0x821A401C
+0x82237190 = { name = "sub_82237190" }
+# table slot 0x821A4024
+0x822371A8 = { name = "sub_822371A8" }
+# table slot 0x821A3F14
+0x822372E8 = { name = "sub_822372E8" }
+# table slot 0x821A3F48
+0x82237338 = { name = "sub_82237338" }
+# table slot 0x821A43D0
+0x82248EF8 = { name = "sub_82248EF8" }
+# table slot 0x821A444C
+0x8224D178 = { name = "sub_8224D178" }
+# table slot 0x821A4450
+0x8224D190 = { name = "sub_8224D190" }
+# table slot 0x821A4150
+0x8225D970 = { name = "sub_8225D970" }
+# table slot 0x821A3FC4
+0x8225D990 = { name = "sub_8225D990" }
+# table slot 0x821A4188
+0x8225D998 = { name = "sub_8225D998" }
+# table slot 0x821A4000
+0x8225D9B0 = { name = "sub_8225D9B0" }
+# table slot 0x821A407C
+0x8225D9B8 = { name = "sub_8225D9B8" }
+# table slot 0x821A3FA8
+0x8225D9D0 = { name = "sub_8225D9D0" }
+# table slot 0x821A4358
+0x8225D9E8 = { name = "sub_8225D9E8" }
+# table slot 0x821A406C
+0x8225D9F8 = { name = "sub_8225D9F8" }
+# table slot 0x821A3E60
+0x8225DA08 = { name = "sub_8225DA08" }
+# table slot 0x821A4838
+0x82263600 = { name = "sub_82263600" }
+# table slot 0x821A50E4
+0x82274430 = { name = "sub_82274430" }
+# table slot 0x821A49F4
+0x82275158 = { name = "sub_82275158" }
+# table slot 0x821A4C70
+0x82275170 = { name = "sub_82275170" }
+# table slot 0x821A4CD8
+0x82275238 = { name = "sub_82275238" }
+# table slot 0x821A5058
+0x82275278 = { name = "sub_82275278" }
+# table slot 0x821A49E4
+0x822752D8 = { name = "sub_822752D8" }
+# table slot 0x821A4C60
+0x822752F0 = { name = "sub_822752F0" }
+# table slot 0x821A5158
+0x82275308 = { name = "sub_82275308" }
+# table slot 0x821A51D0
+0x82275550 = { name = "sub_82275550" }
+# table slot 0x821A51E4
+0x82275568 = { name = "sub_82275568" }
+# table slot 0x821A51FC
+0x82275590 = { name = "sub_82275590" }
+# table slot 0x821A5208
+0x822755B0 = { name = "sub_822755B0" }
+# table slot 0x821A520C
+0x822755C8 = { name = "sub_822755C8" }
+# table slot 0x821A5210
+0x822755E0 = { name = "sub_822755E0" }
+# table slot 0x821A5354
+0x82279B00 = { name = "sub_82279B00" }
+# table slot 0x82011040
+0x8230F148 = { name = "sub_8230F148" }
+# table slot 0x8205CE78
+0x823E2770 = { name = "sub_823E2770" }
+# table slot 0x8205C6C8
+0x823E2820 = { name = "sub_823E2820" }
+# table slot 0x8205DC54
+0x823E2968 = { name = "sub_823E2968" }
+# table slot 0x820C53A4
+0x823FE280 = { name = "sub_823FE280" }
+# table slot 0x82063444
+0x8244F9D8 = { name = "sub_8244F9D8" }
+# table slot 0x82064780
+0x824569F0 = { name = "sub_824569F0" }
+# table slot 0x82070C00
+0x824AC348 = { name = "sub_824AC348" }
+# table slot 0x8206F2B0
+0x824D6480 = { name = "sub_824D6480" }
+# table slot 0x82075510
+0x824E9110 = { name = "sub_824E9110" }
+# table slot 0x82074804
+0x824E91C8 = { name = "sub_824E91C8" }
+# table slot 0x82074934
+0x824E91E8 = { name = "sub_824E91E8" }
+# table slot 0x82074B90
+0x824E9238 = { name = "sub_824E9238" }
+# table slot 0x82078AF4
+0x824E93A0 = { name = "sub_824E93A0" }
+# table slot 0x82076964
+0x824E9678 = { name = "sub_824E9678" }
+# table slot 0x82076BC0
+0x824E9698 = { name = "sub_824E9698" }
+# table slot 0x820778D0
+0x824E9738 = { name = "sub_824E9738" }
+# table slot 0x82077080
+0x824E9770 = { name = "sub_824E9770" }
+# table slot 0x8209427C
+0x824EAB50 = { name = "sub_824EAB50" }
+# table slot 0x8207D728
+0x82521360 = { name = "sub_82521360" }
+# table slot 0x8207CC38
+0x82522AA0 = { name = "sub_82522AA0" }
+# table slot 0x82081100
+0x8258AD58 = { name = "sub_8258AD58" }
+# table slot 0x82081D68
+0x8258C8F0 = { name = "sub_8258C8F0" }
+# table slot 0x82081DE4
+0x8258C9A8 = { name = "sub_8258C9A8" }
+# table slot 0x82012658
+0x8259A880 = { name = "sub_8259A880" }
+# table slot 0x82087F08
+0x8259C758 = { name = "sub_8259C758" }
+# table slot 0x820B1D94
+0x8268AAD8 = { name = "sub_8268AAD8" }
+# table slot 0x820AEF88
+0x8268C2A8 = { name = "sub_8268C2A8" }
+# table slot 0x820B2140
+0x8268C2E0 = { name = "sub_8268C2E0" }
+# table slot 0x82034550
+0x826C7E28 = { name = "sub_826C7E28" }
+# table slot 0x820C0C34
+0x82717C50 = { name = "sub_82717C50" }
+# table slot 0x820BF064
+0x82717CE8 = { name = "sub_82717CE8" }
+# table slot 0x820BF07C
+0x82717CF8 = { name = "sub_82717CF8" }
+# table slot 0x820BF1B4
+0x82717D50 = { name = "sub_82717D50" }
+# table slot 0x820BF304
+0x82717DE8 = { name = "sub_82717DE8" }
+# table slot 0x820BF338
+0x82717DF8 = { name = "sub_82717DF8" }
+# table slot 0x820BF454
+0x82717E20 = { name = "sub_82717E20" }
+# table slot 0x820B8A48
+0x82718FF8 = { name = "sub_82718FF8" }
+# table slot 0x820B8B64
+0x82719010 = { name = "sub_82719010" }
+# table slot 0x820BC918
+0x82719020 = { name = "sub_82719020" }
+# table slot 0x820C06FC
+0x82719BD8 = { name = "sub_82719BD8" }
+# table slot 0x820C0704
+0x82719BF8 = { name = "sub_82719BF8" }
+# table slot 0x820BD248
+0x82719C20 = { name = "sub_82719C20" }
+# table slot 0x820C02F8
+0x82719C38 = { name = "sub_82719C38" }
+# table slot 0x820BC3D8
+0x8271A1E0 = { name = "sub_8271A1E0" }
+# table slot 0x820BBC6C
+0x8271A8D8 = { name = "sub_8271A8D8" }
+# table slot 0x820BF5D8
+0x8271B210 = { name = "sub_8271B210" }
+# table slot 0x820BEDB8
+0x8271BA80 = { name = "sub_8271BA80" }
+# table slot 0x820C082C
+0x8271D270 = { name = "sub_8271D270" }
+# table slot 0x820B973C
+0x8271D308 = { name = "sub_8271D308" }
+# table slot 0x820C0860
+0x8271D318 = { name = "sub_8271D318" }
+# table slot 0x820C097C
+0x8271D350 = { name = "sub_8271D350" }
+# table slot 0x820B9D10
+0x8271D360 = { name = "sub_8271D360" }
+# table slot 0x820B9E2C
+0x8271D420 = { name = "sub_8271D420" }
+# table slot 0x8205C03C
+0x82731708 = { name = "sub_82731708" }
+# table slot 0x820530B0
+0x827396D0 = { name = "sub_827396D0" }
+# table slot 0x8204F810
+0x827D2F70 = { name = "sub_827D2F70" }
+# table slot 0x8201225C
+0x827D6B58 = { name = "sub_827D6B58" }
+# table slot 0x820DFE84
+0x82898210 = { name = "sub_82898210" }
+# table slot 0x82035908
+0x82899F98 = { name = "sub_82899F98" }
+# table slot 0x820DEC38
+0x828A0798 = { name = "sub_828A0798" }
+# table slot 0x820E7CF0
+0x8293CAD8 = { name = "sub_8293CAD8" }
+# table slot 0x820E7EA0
+0x8293DD68 = { name = "sub_8293DD68" }
+# table slot 0x820E87DC
+0x8294CC80 = { name = "sub_8294CC80" }
+# table slot 0x820F1F8C
+0x829921A0 = { name = "sub_829921A0" }
+# table slot 0x8204D2F8
+0x829AD080 = { name = "sub_829AD080" }
+# table slot 0x820FC208
+0x829DFEF8 = { name = "sub_829DFEF8" }
+# table slot 0x820FC20C
+0x829DFF00 = { name = "sub_829DFF00" }
+# table slot 0x8210106C
+0x82A24FE0 = { name = "sub_82A24FE0" }
+# table slot 0x82101080
+0x82A25020 = { name = "sub_82A25020" }
+# table slot 0x82100CA0
+0x82A25AA0 = { name = "sub_82A25AA0" }
+# table slot 0x82100CA4
+0x82A25AC0 = { name = "sub_82A25AC0" }
+# table slot 0x82100CA8
+0x82A25AE0 = { name = "sub_82A25AE0" }
+# table slot 0x82100CAC
+0x82A25B00 = { name = "sub_82A25B00" }
+# table slot 0x82100CB8
+0x82A25B50 = { name = "sub_82A25B50" }
+# table slot 0x821A53F4
+0x82A3C144 = { name = "sub_82A3C144" }
+# table slot 0x821A5400
+0x82A3C2E4 = { name = "sub_82A3C2E4" }
+# table slot 0x821A540C
+0x82A3E558 = { name = "sub_82A3E558" }
+# table slot 0x821A5418
+0x82A3E584 = { name = "sub_82A3E584" }
+# table slot 0x821A5424
+0x82A3FDF0 = { name = "sub_82A3FDF0" }
+# table slot 0x821A5430
+0x82A3FE20 = { name = "sub_82A3FE20" }
+# table slot 0x821A543C
+0x82A403D0 = { name = "sub_82A403D0" }
+# table slot 0x821A5454
+0x82A40CA8 = { name = "sub_82A40CA8" }
+# table slot 0x821A548C
+0x82A40FFC = { name = "sub_82A40FFC" }
+# table slot 0x821A547C
+0x82A41024 = { name = "sub_82A41024" }
+# table slot 0x821A546C
+0x82A41558 = { name = "sub_82A41558" }
+# table slot 0x821A5478
+0x82A41588 = { name = "sub_82A41588" }
+# table slot 0x821A5488
+0x82A41700 = { name = "sub_82A41700" }
+# table slot 0x821A54A4
+0x82AA2D68 = { name = "sub_82AA2D68" }
+# table slot 0x821A54B0
+0x82AA2D98 = { name = "sub_82AA2D98" }
+# table slot 0x8210EDC8
+0x82AC72F8 = { name = "sub_82AC72F8" }
+# table slot 0x8210EF8C
+0x82AC7638 = { name = "sub_82AC7638" }
+# table slot 0x8210EF90
+0x82AC7660 = { name = "sub_82AC7660" }
+# table slot 0x8210EF94
+0x82AC7688 = { name = "sub_82AC7688" }
+# table slot 0x8210EF98
+0x82AC76B0 = { name = "sub_82AC76B0" }
+# table slot 0x8210EFCC
+0x82AC7AE0 = { name = "sub_82AC7AE0" }
+# table slot 0x8213A3B0
+0x82B568B0 = { name = "sub_82B568B0" }
+# table slot 0x8213A220
+0x82B59B28 = { name = "sub_82B59B28" }
+# table slot 0x8213A214
+0x82B59B70 = { name = "sub_82B59B70" }
+# table slot 0x8213B3C0
+0x82B5E528 = { name = "sub_82B5E528" }
+# table slot 0x8213B400
+0x82B5E550 = { name = "sub_82B5E550" }
+# table slot 0x8213B3D0
+0x82B5E558 = { name = "sub_82B5E558" }
+# table slot 0x8213B3B0
+0x82B5F598 = { name = "sub_82B5F598" }
+# table slot 0x8213B4D8
+0x82B60788 = { name = "sub_82B60788" }
+# table slot 0x8213A318
+0x82B607A0 = { name = "sub_82B607A0" }
+# table slot 0x8213B498
+0x82B607A8 = { name = "sub_82B607A8" }
+# table slot 0x8213B4C0
+0x82B607B0 = { name = "sub_82B607B0" }
+# table slot 0x8213B490
+0x82B607C0 = { name = "sub_82B607C0" }
+# table slot 0x8213B3CC
+0x82B607C8 = { name = "sub_82B607C8" }
+# table slot 0x8213B4C8
+0x82B607D0 = { name = "sub_82B607D0" }
+# table slot 0x8213B3B4
+0x82B607E0 = { name = "sub_82B607E0" }
+# table slot 0x82144EDC
+0x82B9B160 = { name = "sub_82B9B160" }
+# table slot 0x82144F58
+0x82B9B1C8 = { name = "sub_82B9B1C8" }
+# table slot 0x821453EC
+0x82BA60E8 = { name = "sub_82BA60E8" }
+# table slot 0x82145BE0
+0x82BB5FC8 = { name = "sub_82BB5FC8" }
+# table slot 0x82146960
+0x82BE11B8 = { name = "sub_82BE11B8" }
+# table slot 0x82155CA0
+0x82C3FD48 = { name = "sub_82C3FD48" }
+# table slot 0x82156104
+0x82C48B58 = { name = "sub_82C48B58" }
+# table slot 0x8215BE00
+0x82CD47C0 = { name = "sub_82CD47C0" }
+# table slot 0x8215CAD8
+0x82CDAFD8 = { name = "sub_82CDAFD8" }
+# table slot 0x8215D410
+0x82CDE6E8 = { name = "sub_82CDE6E8" }
+# table slot 0x8215EB2C
+0x82CF5238 = { name = "sub_82CF5238" }
+# table slot 0x8215F428
+0x82CFBAA8 = { name = "sub_82CFBAA8" }
+# table slot 0x82162234
+0x82D22F30 = { name = "sub_82D22F30" }
+# table slot 0x82162498
+0x82D28AF8 = { name = "sub_82D28AF8" }
+# table slot 0x821636D0
+0x82D34278 = { name = "sub_82D34278" }
+# table slot 0x821637BC
+0x82D356D8 = { name = "sub_82D356D8" }
+# table slot 0x82163F38
+0x82D469A0 = { name = "sub_82D469A0" }
+# table slot 0x82164084
+0x82D47088 = { name = "sub_82D47088" }
+# table slot 0x821A54BC
+0x82D5CC7C = { name = "sub_82D5CC7C" }
+# table slot 0x821A54D4
+0x82D5EC40 = { name = "sub_82D5EC40" }
+# table slot 0x821A54EC
+0x82D5EDA4 = { name = "sub_82D5EDA4" }
+# table slot 0x821A5514
+0x82D5F388 = { name = "sub_82D5F388" }
+# table slot 0x821A5504
+0x82D5F3DC = { name = "sub_82D5F3DC" }
+# table slot 0x821A5518
+0x82D5F458 = { name = "sub_82D5F458" }
+# table slot 0x821A552C
+0x82D5F5A0 = { name = "sub_82D5F5A0" }
+# table slot 0x821A5544
+0x82D5FB90 = { name = "sub_82D5FB90" }
+# table slot 0x821A555C
+0x82D5FDB0 = { name = "sub_82D5FDB0" }
+# table slot 0x821A5574
+0x82D6017C = { name = "sub_82D6017C" }
+# table slot 0x821A558C
+0x82D60520 = { name = "sub_82D60520" }
+# table slot 0x821A55A4
+0x82D60B48 = { name = "sub_82D60B48" }
+# table slot 0x821A55BC
+0x82D60D38 = { name = "sub_82D60D38" }
+# table slot 0x821A55D4
+0x82D60FD0 = { name = "sub_82D60FD0" }
+# table slot 0x821A55EC
+0x82D611FC = { name = "sub_82D611FC" }
+# table slot 0x821A5604
+0x82D61644 = { name = "sub_82D61644" }
+# table slot 0x821A561C
+0x82D61788 = { name = "sub_82D61788" }
+# table slot 0x821A5634
+0x82D61F60 = { name = "sub_82D61F60" }
+# table slot 0x821A564C
+0x82D6374C = { name = "sub_82D6374C" }
+# table slot 0x821A5664
+0x82D63BF4 = { name = "sub_82D63BF4" }
+# table slot 0x821A567C
+0x82D64050 = { name = "sub_82D64050" }
+# table slot 0x821A5688
+0x82D6407C = { name = "sub_82D6407C" }
+# table slot 0x821A5694
+0x82D65CD4 = { name = "sub_82D65CD4" }
+# table slot 0x821A56AC
+0x82D69E7C = { name = "sub_82D69E7C" }
+# table slot 0x821A56B0
+0x82D69F00 = { name = "sub_82D69F00" }
+# table slot 0x821A56C4
+0x82D6A0E0 = { name = "sub_82D6A0E0" }
+# table slot 0x821A56DC
+0x82D6A51C = { name = "sub_82D6A51C" }
+# table slot 0x821A56F4
+0x82D6A694 = { name = "sub_82D6A694" }
+# table slot 0x821A570C
+0x82D6BCB0 = { name = "sub_82D6BCB0" }
+# table slot 0x821A5724
+0x82D6C024 = { name = "sub_82D6C024" }
+# table slot 0x821A573C
+0x82D6C874 = { name = "sub_82D6C874" }
+# table slot 0x821A5754
+0x82D6CABC = { name = "sub_82D6CABC" }
+# table slot 0x821A576C
+0x82D6CF78 = { name = "sub_82D6CF78" }
+# table slot 0x821A5784
+0x82D6D120 = { name = "sub_82D6D120" }
+# table slot 0x821A579C
+0x82D6D354 = { name = "sub_82D6D354" }
+# table slot 0x821A57B4
+0x82D6D4FC = { name = "sub_82D6D4FC" }
+# table slot 0x821A57C0
+0x82D6D510 = { name = "sub_82D6D510" }
+# table slot 0x821A57CC
+0x82D6D55C = { name = "sub_82D6D55C" }
+# table slot 0x821A57D8
+0x82D6D570 = { name = "sub_82D6D570" }
+# table slot 0x821A57E4
+0x82D6D614 = { name = "sub_82D6D614" }
+# table slot 0x821A57F0
+0x82D6D630 = { name = "sub_82D6D630" }
+# table slot 0x821A580C
+0x82D6D9D4 = { name = "sub_82D6D9D4" }
+# table slot 0x821A57FC
+0x82D6DA28 = { name = "sub_82D6DA28" }
+# table slot 0x821A5810
+0x82D6DA78 = { name = "sub_82D6DA78" }
+# table slot 0x821A5824
+0x82D6E114 = { name = "sub_82D6E114" }
+# table slot 0x821A584C
+0x82D6E50C = { name = "sub_82D6E50C" }
+# table slot 0x821A583C
+0x82D6E548 = { name = "sub_82D6E548" }
+# table slot 0x821A5848
+0x82D6E594 = { name = "sub_82D6E594" }
+# table slot 0x821A5850
+0x82D6E5B0 = { name = "sub_82D6E5B0" }
+# table slot 0x821A5864
+0x82D6E6EC = { name = "sub_82D6E6EC" }
+# table slot 0x821A5870
+0x82D6E708 = { name = "sub_82D6E708" }
+# table slot 0x821A587C
+0x82D6E888 = { name = "sub_82D6E888" }
+# table slot 0x821A5888
+0x82D6EA7C = { name = "sub_82D6EA7C" }
+# table slot 0x821A5894
+0x82D6EAE8 = { name = "sub_82D6EAE8" }
+# table slot 0x821A58A0
+0x82D6EBBC = { name = "sub_82D6EBBC" }
+# table slot 0x821A58AC
+0x82D6F280 = { name = "sub_82D6F280" }
+# table slot 0x821A58B8
+0x82D6F29C = { name = "sub_82D6F29C" }
+# table slot 0x821A58C4
+0x82D7013C = { name = "sub_82D7013C" }
+# table slot 0x821A58DC
+0x82D7080C = { name = "sub_82D7080C" }
+# table slot 0x821A58F4
+0x82D708A0 = { name = "sub_82D708A0" }
+# table slot 0x821A590C
+0x82D709C0 = { name = "sub_82D709C0" }
+# table slot 0x821A5924
+0x82D7216C = { name = "sub_82D7216C" }
+# table slot 0x821A593C
+0x82D725B8 = { name = "sub_82D725B8" }
+# table slot 0x821A5964
+0x82D726D4 = { name = "sub_82D726D4" }
+# table slot 0x821A5954
+0x82D7273C = { name = "sub_82D7273C" }
+# table slot 0x821A597C
+0x82D8DE54 = { name = "sub_82D8DE54" }
+# table slot 0x821A5988
+0x82D8DEB8 = { name = "sub_82D8DEB8" }
+# table slot 0x821A59A4
+0x82D901B8 = { name = "sub_82D901B8" }
+# table slot 0x821A59B0
+0x82D901E4 = { name = "sub_82D901E4" }
+# table slot 0x821A5994
+0x82D901F4 = { name = "sub_82D901F4" }
+# table slot 0x821A59A0
+0x82D9021C = { name = "sub_82D9021C" }
+# table slot 0x821A59BC
+0x82D9067C = { name = "sub_82D9067C" }
+# table slot 0x821A59C8
+0x82D90698 = { name = "sub_82D90698" }
+# table slot 0x821A59D4
+0x82D90AF8 = { name = "sub_82D90AF8" }
+# table slot 0x821A59E0
+0x82D90BC0 = { name = "sub_82D90BC0" }
+# table slot 0x821A59EC
+0x82D90C78 = { name = "sub_82D90C78" }
+# table slot 0x821A59F8
+0x82D90D20 = { name = "sub_82D90D20" }
+# table slot 0x821A5A04
+0x82DAA0AC = { name = "sub_82DAA0AC" }
+# table slot 0x821A5A10
+0x82DAA164 = { name = "sub_82DAA164" }
+# table slot 0x8217420C
+0x82E4F9C8 = { name = "sub_82E4F9C8" }
+# table slot 0x82174214
+0x82E4FA18 = { name = "sub_82E4FA18" }
+# table slot 0x82181628
+0x82E9D640 = { name = "sub_82E9D640" }
+# table slot 0x82181648
+0x82E9D6A0 = { name = "sub_82E9D6A0" }
+# table slot 0x82181658
+0x82E9D6D0 = { name = "sub_82E9D6D0" }
+# table slot 0x8218167C
+0x82E9D6F0 = { name = "sub_82E9D6F0" }
+# table slot 0x82181680
+0x82E9D6F8 = { name = "sub_82E9D6F8" }
+# table slot 0x82181684
+0x82E9D700 = { name = "sub_82E9D700" }
+# table slot 0x82181688
+0x82E9D708 = { name = "sub_82E9D708" }
+# table slot 0x8218168C
+0x82E9D718 = { name = "sub_82E9D718" }
+# table slot 0x82181690
+0x82E9D728 = { name = "sub_82E9D728" }
+# table slot 0x82181694
+0x82E9D738 = { name = "sub_82E9D738" }
+# table slot 0x82181698
+0x82E9D748 = { name = "sub_82E9D748" }
+# table slot 0x8218169C
+0x82E9D758 = { name = "sub_82E9D758" }
+# table slot 0x821816A0
+0x82E9D768 = { name = "sub_82E9D768" }
+# table slot 0x821816A4
+0x82E9D778 = { name = "sub_82E9D778" }
+# table slot 0x821816A8
+0x82E9D788 = { name = "sub_82E9D788" }
+# table slot 0x821816BC
+0x82E9D7C8 = { name = "sub_82E9D7C8" }
+# table slot 0x821816C0
+0x82E9D7D0 = { name = "sub_82E9D7D0" }
+# table slot 0x821816C4
+0x82E9D7D8 = { name = "sub_82E9D7D8" }
+# table slot 0x821816C8
+0x82E9D7E0 = { name = "sub_82E9D7E0" }
+# table slot 0x821816DC
+0x82E9D808 = { name = "sub_82E9D808" }
+# table slot 0x821816EC
+0x82E9D858 = { name = "sub_82E9D858" }
+# table slot 0x821816F0
+0x82E9D870 = { name = "sub_82E9D870" }
+# table slot 0x821816F8
+0x82E9D8A8 = { name = "sub_82E9D8A8" }
+# table slot 0x82181700
+0x82E9D8D8 = { name = "sub_82E9D8D8" }
+# table slot 0x82181704
+0x82E9D8F0 = { name = "sub_82E9D8F0" }
+# table slot 0x82181708
+0x82E9D908 = { name = "sub_82E9D908" }
+# table slot 0x82181710
+0x82E9D940 = { name = "sub_82E9D940" }
+# table slot 0x82185518
+0x82EC2CE8 = { name = "sub_82EC2CE8" }
+# table slot 0x8218827C
+0x82ED1810 = { name = "sub_82ED1810" }
+# table slot 0x8218AF48
+0x82ED5878 = { name = "sub_82ED5878" }
+# table slot 0x8218B108
+0x82ED5CD8 = { name = "sub_82ED5CD8" }
+# table slot 0x8218D9D0
+0x82EF65B0 = { name = "sub_82EF65B0" }
+# table slot 0x8218E104
+0x82F03170 = { name = "sub_82F03170" }
+# table slot 0x8218E120
+0x82F03B98 = { name = "sub_82F03B98" }
+# table slot 0x8218F074
+0x82F28440 = { name = "sub_82F28440" }
+# table slot 0x82190F90
+0x82F49AD0 = { name = "sub_82F49AD0" }
+# table slot 0x82190F98
+0x82F49B30 = { name = "sub_82F49B30" }
+# table slot 0x82191570
+0x82F4E7B8 = { name = "sub_82F4E7B8" }
+# table slot 0x82191548
+0x82F4E908 = { name = "sub_82F4E908" }
+# table slot 0x82191818
+0x82F50B30 = { name = "sub_82F50B30" }
+# table slot 0x8219181C
+0x82F50B50 = { name = "sub_82F50B50" }
+# table slot 0x82191834
+0x82F50CA0 = { name = "sub_82F50CA0" }
+# table slot 0x82191838
+0x82F50CD0 = { name = "sub_82F50CD0" }
+# table slot 0x82191798
+0x82F50D00 = { name = "sub_82F50D00" }
+# table slot 0x82192E20
+0x82FBF018 = { name = "sub_82FBF018" }
+# table slot 0x82192E24
+0x82FBF020 = { name = "sub_82FBF020" }
+# table slot 0x82192E28
+0x82FBF028 = { name = "sub_82FBF028" }
+# table slot 0x82192E40
+0x82FBF030 = { name = "sub_82FBF030" }
+# table slot 0x82194CD8
+0x830231E0 = { name = "sub_830231E0" }
+# table slot 0x82194F68
+0x83023828 = { name = "sub_83023828" }
+# table slot 0x82195028
+0x830249C8 = { name = "sub_830249C8" }
+# table slot 0x821970C4
+0x83033590 = { name = "sub_83033590" }
+# table slot 0x82198514
+0x830360B8 = { name = "sub_830360B8" }

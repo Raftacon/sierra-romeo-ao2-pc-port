@@ -1,0 +1,8 @@
+# Conservative candidates from tools/scan_indirect.py; runtime coverage pending.
+# Exact retail executable required. Each entry has a data table
+# reference and a preceding return/tail-branch/padding boundary.
+[functions]
+# table slot 0x830ABEEC
+0x823FF908 = { name = "sub_823FF908" }
+# table slot 0x830AC3BC
+0x82409618 = { name = "sub_82409618" }

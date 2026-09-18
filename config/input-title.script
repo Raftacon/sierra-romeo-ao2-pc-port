@@ -1,0 +1,9 @@
+# Host milliseconds since first controller poll. Start, then A to acknowledge
+# startup/menu prompts. This is a diagnostic input schedule, not a gameplay bot.
+# start duration buttons(hex) LT RT LX LY RX RY
+12000 200 0010 0 0 0 0 0 0
+16000 200 1000 0 0 0 0 0 0
+20000 200 1000 0 0 0 0 0 0
+24000 200 1000 0 0 0 0 0 0
+28000 200 1000 0 0 0 0 0 0
+32000 200 1000 0 0 0 0 0 0

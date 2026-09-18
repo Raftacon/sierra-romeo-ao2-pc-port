@@ -1,0 +1,15 @@
+# Tail-branch destinations omitted by ReXGlue 0.10.0 discovery on the retail
+# 454107F8 / 38595BF0 / 0.0.0.1 executable. Seed analysis at the exact targets;
+# let the analyzer determine their extents from instructions, not guessed sizes.
+[functions]
+0x82734628 = { name = "sub_82734628" }
+0x82BC3110 = { name = "sub_82BC3110" }
+0x82CAB898 = { name = "sub_82CAB898" }
+
+# Native startup 001/002 dispatched this address indirectly. The loaded image
+# contains mr r11,r3; lwz r10,4(r11); addi r3,r10,1; stw r3,4(r11); blr.
+0x82B50E98 = { name = "sub_82B50E98" }
+
+# Native startup 004: computed callback (no literal pointer in the image).
+# Traverses two linked lists, compares extracted maxima, returns comparison.
+0x82DD6D18 = { name = "sub_82DD6D18" }

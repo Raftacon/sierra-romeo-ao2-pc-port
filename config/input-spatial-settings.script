@@ -1,0 +1,31 @@
+# PC Display: disable FSR and Apply; preview FSR and Cancel; enable and resize.
+22000 400 0010 0 0 0 0 0 0
+30000 150 0002 0 0 0 0 0 0
+31000 150 0002 0 0 0 0 0 0
+32000 150 0002 0 0 0 0 0 0
+34000 250 1000 0 0 0 0 0 0
+40000 150 0001 0 0 0 0 0 0
+43000 700 1000 0 0 0 0 0 0
+49000 150 0002 0 0 0 0 0 0
+50000 150 0002 0 0 0 0 0 0
+51000 150 0004 0 0 0 0 0 0
+55000 800 1000 0 0 0 0 0 0
+# Reopen, preview defaults and cancel. FSR should remain off.
+62000 250 1000 0 0 0 0 0 0
+66000 150 4000 0 0 0 0 0 0
+70000 800 2000 0 0 0 0 0 0
+# Reopen, enable FSR; resize 1080p to 1440p in the same Apply.
+78000 250 1000 0 0 0 0 0 0
+82000 150 0002 0 0 0 0 0 0
+83000 150 0008 0 0 0 0 0 0
+84000 150 0002 0 0 0 0 0 0
+85000 150 0008 0 0 0 0 0 0
+88000 800 1000 0 0 0 0 0 0
+# Borderless fullscreen returns to desktop resolution, with FSR still on.
+96000 250 1000 0 0 0 0 0 0
+100000 150 0008 0 0 0 0 0 0
+102000 800 1000 0 0 0 0 0 0
+# Exit through original main-menu confirmation.
+112000 250 2000 0 0 0 0 0 0
+118000 250 0010 0 0 0 0 0 0
+124000 250 1000 0 0 0 0 0 0
